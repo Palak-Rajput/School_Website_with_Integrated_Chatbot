@@ -2,14 +2,12 @@
 $connection = mysqli_connect('localhost', 'root', '', 'school');
 if (!$connection)
     die("Connection Failed");
-// else
-//     echo "Connected";
+
     if (isset($_POST['submit'])) {
         global $connection, $name, $email, $message;
         $name = $_POST['name'];
         $email = $_POST['email'];
         $message = $_POST['message'];}
-        // echo $name . $email . $message;
 
         $query = "INSERT INTO touch(name, email, message)";
         global  $name, $email, $message;
@@ -40,47 +38,7 @@ if (!$connection)
     <title>Document</title>
 </head>
 <body>
-    <!-- <nav class="navbar background h-nav">
-        <ul class="nav-list v-class">
-            <div class="logo"><img src="img/logo.jpg" alt="logo"></div>
-           <li><i class="fa-solid fa-house"></i><a href="index.html">Home</a></li>
-           <li><i class="fa-solid fa-camera"></i><a href="#">Gallery</a>
-        <div class="sub-menu-1">
-            <ul>
-                <li><a href="images.html">Images</a></li>
-                <li><a href="vdo.html">Videos</a></li>
-                <li><a href="#">Sports</a></li>
-                <li><a href="cca.html">CCA</a></li>
-                <li><a href="scout.html">Scout & Guide</a></li>
-                <li><a href="other.html">Other</a></li>
-
-            </ul>
-        </div>
-        </li> -->
-
-           <!-- <li><i class="fa-solid fa-user"></i><a href="about.html">About</a>
-            <div class="sub-menu-1">
-                <ul>
-                    <li><a href="#">Founder</a></li>
-                    <li><a href="#">Managing Director</a></li>
-                    <li><a href="#">Staff</a></li>
-                </ul>
-            </div>
-        </li> -->
-           
-           <!-- <li><i class="fa-solid fa-user-tie"></i><a href="staff.php">Staff</a></li>
-           <li><i class="fa-solid fa-phone"></i><a href="contact.html">Contact Us</a></li>
-        </ul>
-        <div class="rightNav v-class">
-            <input type="text" name="search" id="search">
-            <button class="btn btn-sm">Search</button>
-        </div>
-        <div class="burger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </div>
-    </nav> -->
+   
     <!-- Navbar starts-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -100,7 +58,6 @@ if (!$connection)
                         <div class="sub-menu-1">
                             <ul class="tab">
                                 <li class="tab"><a href="images.html">Events</a></li>
-                                <!-- <li class="tab"><a href="vdo.html">Videos</a></li> -->
                                 <li class="tab"><a href="news.html">Newspaper</a></li>
                                 <li class="tab"><a href="cca.html">CCA</a></li>
                                 <li class="tab"><a href="scout.html">Scout & Guide</a></li>
@@ -112,43 +69,22 @@ if (!$connection)
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="staff.php">Staff</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
-                    </li> -->
-                    
-                    <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Topics
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Technology</a></li>
-                            <li><a class="dropdown-item" href="#">Web Development</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Support</a></li>
-                            <li><a class="dropdown-item" href="#">Write for us</a></li>
-                        </ul>
-                    </li> -->
+                 
                     <li class="nav-item">
                         <a class="nav-link" href="contact.php">Contact Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="admin">Admin</a>
                     </li>
-                    <!-- <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li> -->
+                   
                 </ul>
-                <!-- <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-light" type="submit">Search</button>
-                </form> -->
+               
             </div>
         </div>
     </nav>
     <!-- Navbar ends -->
+
+
     <section class="background firstSection bg">
         <div class="box-main">
             <div class="firstHalf">
@@ -161,28 +97,7 @@ if (!$connection)
 </div>
     </section>
 
-    <!-- <div class="bg-image responsive bg background " 
-     style="background-image: url('img/bg.png');
-         background-size: cover;
-         opacity: 0.7;
-         position: relative;text-align: center;
-  color: white;
-           height: 70vh">
-</div>
-    <div class="centered" 
-     style="
-         
-         position: absolute;font-family:Verdana, Geneva, Tahoma, sans-serif ; top: 50%;left: 40%;transform: translate(-50%, -50%);font-size: 2rem;margin:
-            auto; color:black; @media (max-width:900px){top: 70%;left: 20%;transform: translate(-50%, -50%);}
-              "><i>MAHARISHI DAYANAND AADARSH INTER COLLEGE, UMRARA</i>
-</div>
-<img class="abc"
-style="
-         
-         position: absolute; left: 80%;top: 45%;transform:translate(-50%, -50%);margin:
-            auto;margin-left: 5px;border-radius: 50%;border: 3px solid white;"
-              
-src='img/logo.jpg' alt='Avatar' width="200vw"> -->
+   
 
     <div class="main">
         <h2><u>Contact Us</u></h5>
