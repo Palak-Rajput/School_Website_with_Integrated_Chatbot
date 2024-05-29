@@ -18,10 +18,6 @@ if(isset($_POST['update_staff'])){
     $name = $_POST['staff_name'];
     $designation = $_POST['designation'];
    
-
-   
-
-
     $query = "UPDATE staff SET ";
     $query .="staff_name = '{$name}', ";
     $query .="designation = '{$designation}' ";
@@ -33,10 +29,8 @@ if(isset($_POST['update_staff'])){
 
     confirmQuery($update_staff);
 
-    
-}
+    }
  
-
 
 ?>
 <form action="" method="post" enctype="multipart/form-data">
@@ -45,14 +39,11 @@ if(isset($_POST['update_staff'])){
         <input value="<?php echo $name; ?>" type="text" class="form-control" name="staff_name">
     </div>
 
-    
-
     <div class="form-group">
         <label for="designation">Designation</label>
         <input value="<?php echo $designation; ?>" type="text" class="form-control" name="designation">
     </div>
 
-   
     
     <div class="form-group">
         <input class="btn btn-primary" type="submit" name="update_staff" value="Update">
