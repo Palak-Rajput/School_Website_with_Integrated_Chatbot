@@ -175,5 +175,4 @@ domain="www.chatbase.co"
 defer>
 </script>
 </body>
-
 </html>
