@@ -23,7 +23,6 @@
             $user_firstname = $row['user_firstname'];
             $user_lastname = $row['user_lastname'];
             $user_email = $row['user_email'];
-            // $user_image = $row['user_image'];
             $user_role = $row['user_role'];
            
 
@@ -32,35 +31,9 @@
             echo "<td>$username</td>";
             echo "<td>$user_firstname</td>";
 
-            // $query = "SELECT * FROM category WHERE cat_id = {$post_category_id} ";
-            // $select_category_id = mysqli_query($connection, $query);
-
-            // while ($row = mysqli_fetch_assoc($select_category_id)) {
-            //     $cat_id = $row['cat_id'];
-            //     $cat_title = $row['cat_title'];
-
-            // echo "<td>{$cat_title}</td>";
-            // }
-
             echo "<td>$user_lastname</td>";
             echo "<td>$user_email</td>";
             echo "<td>$user_role</td>";
-
-                // $query = "SELECT * FROM posts WHERE post_id = $comment_post_id ";
-
-                // $select_post_id_query = mysqli_query($connection, $query);
-
-                // while($row = mysqli_fetch_assoc($select_post_id_query)){
-                //     $post_id = $row['post_id'];
-                //     $post_title = $row['post_title'];
-
-                //     echo "<td><a href='../post.php?p_id=$post_id'>$post_title</a></td>";
-
-                // }
-
-
-
-
 
 
             echo "<td><a href='users.php?change_to_admin={$user_id}'>Admin</a></td>";
@@ -93,8 +66,6 @@ if (isset($_GET['change_to_sub'])) {
     $change_to_sub_query = mysqli_query($connection, $query);
     header("Location: users.php");
 }
-
-
 
 
 if (isset($_GET['delete'])) {
