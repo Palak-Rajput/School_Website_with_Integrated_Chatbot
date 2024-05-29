@@ -15,47 +15,8 @@ include "db.php";
     <title>Document</title>
 </head>
 <body>
-    <!-- <nav class="navbar background h-nav">
-        <ul class="nav-list v-class">
-            <div class="logo"><img src="img/logo.jpg" alt="logo"></div>
-           <li><i class="fa-solid fa-house"></i><a href="index.html">Home</a></li>
-           <li><i class="fa-solid fa-camera"></i><a href="#">Gallery</a>
-        <div class="sub-menu-1">
-            <ul>
-                <li><a href="images.html">Images</a></li>
-                <li><a href="vdo.html">Videos</a></li>
-                <li><a href="#">Sports</a></li>
-                <li><a href="cca.html">CCA</a></li>
-                <li><a href="scout.html">Scout & Guide</a></li>
-                <li><a href="other.html">Other</a></li>
-
-            </ul>
-        </div>
-        </li> -->
-
-           <!-- <li><i class="fa-solid fa-user"></i><a href="about.html">About</a>
-            <div class="sub-menu-1">
-                <ul>
-                    <li><a href="#">Founder</a></li>
-                    <li><a href="#">Managing Director</a></li>
-                    <li><a href="#">Staff</a></li>
-                </ul>
-            </div>
-        </li> -->
-           
-           <!-- <li><i class="fa-solid fa-user-tie"></i><a href="staff.php">Staff</a></li>
-           <li><i class="fa-solid fa-phone"></i><a href="contact.html">Contact Us</a></li>
-        </ul>
-        <div class="rightNav v-class">
-            <input type="text" name="search" id="search">
-            <button class="btn btn-sm">Search</button>
-        </div>
-        <div class="burger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </div>
-    </nav> -->
+   
+     
     <!-- Navbar starts-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -75,7 +36,6 @@ include "db.php";
                         <div class="sub-menu-1">
                             <ul class="tab">
                                 <li class="tab"><a href="images.html">Events</a></li>
-                                <!-- <li class="tab"><a href="vdo.html">Videos</a></li> -->
                                 <li class="tab"><a href="news.html">Newspaper</a></li>
                                 <li class="tab"><a href="cca.html">CCA</a></li>
                                 <li class="tab"><a href="scout.html">Scout & Guide</a></li>
@@ -87,39 +47,16 @@ include "db.php";
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="staff.php">Staff</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
-                    </li> -->
-                    
-                    <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Topics
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Technology</a></li>
-                            <li><a class="dropdown-item" href="#">Web Development</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Support</a></li>
-                            <li><a class="dropdown-item" href="#">Write for us</a></li>
-                        </ul>
-                    </li> -->
+                  
                     <li class="nav-item">
                         <a class="nav-link" href="contact.php">Contact Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="admin">Admin</a>
                     </li>
-                    <!-- <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li> -->
+                  
                 </ul>
-                <!-- <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-light" type="submit">Search</button>
-                </form> -->
+              
             </div>
         </div>
     </nav>
@@ -141,57 +78,7 @@ include "db.php";
 
     
     <p class="stf"><u><b>Staff List</b></u></p>
-    <!-- <div class="staff">
-        <ul>
-            <li >
-                <img src="img/te1.jpg" alt="logo" class="image">
-                <p class="desig">Principal</p>
-            </li>
-            <li>
-                <img src="img/te1.jpg" alt="logo" class="image">
-                <p class="desig">Principal</p>
-            </li>
-            <li>
-                <img src="img/te1.jpg" alt="logo" class="image">
-                <p class="desig">Principal</p>
-            </li>
-            <li>
-                <img src="img/te1.jpg" alt="logo" class="image">
-                <p class="desig">Principal</p>
-            </li>
-            <li>
-                <img src="img/te1.jpg" alt="logo" class="image">
-                <p class="desig">Principal</p>
-            </li>
-            <li>
-                <img src="img/te1.jpg" alt="logo" class="image">
-                <p class="desig">Principal</p>
-            </li>
-            <li>
-                <img src="img/te1.jpg" alt="logo" class="image">
-                <p class="desig">Principal</p>
-            </li>
-            <li>
-                <img src="img/te1.jpg" alt="logo" class="image">
-                <p class="desig">Principal</p>
-            </li>
-            <li>
-                <img src="img/te1.jpg" alt="logo" class="image">
-                <p class="desig">Principal</p>
-            </li>
-            <li>
-                <img src="img/te1.jpg" alt="logo" class="image">
-                <p class="desig">Principal</p>
-            </li>
-            <li>
-                <img src="img/te1.jpg" alt="logo" class="image">
-                <p class="desig">Principal</p>
-            </li>
-        </ul>
-        
-    </div> -->
-
-
+    
 <div class="container">
     <table class="table table-bordered table-hover table-secondary">
         <thead class="thead-dark">
