@@ -14,7 +14,6 @@ if(isset($_GET['edit_user'])){
             $user_firstname = $row['user_firstname'];
             $user_lastname = $row['user_lastname'];
             $user_email = $row['user_email'];
-            // $user_image = $row['user_image'];
             $user_role = $row['user_role'];
         }
 }
@@ -24,15 +23,10 @@ if(isset($_POST['edit_user'])){
     $user_firstname = $_POST['user_firstname'];
     $user_lastname = $_POST['user_lastname'];
     $user_role = $_POST['user_role'];
-    // $post_image = $_FILES['image']['name'];
-    // $post_image_temp = $_FILES['image']['tmp_name'];
+  
     $username = $_POST['username'];
     $user_email = $_POST['user_email'];
     $user_password = $_POST['user_password'];
-    // $post_date = date('d-m-y');
-    // $post_comment_count = 4;
-
-    // move_uploaded_file($post_image_temp, "../images/$post_image" );
 
     $query = "UPDATE users SET ";
     $query .="user_firstname = '{$user_firstname}', ";
@@ -43,8 +37,6 @@ if(isset($_POST['edit_user'])){
     $query .="user_password = '{$user_password}' ";
     $query .= "WHERE user_id = {$the_user_id} ";
 
-    // if(empty($post_image)){
-    //     $query = "SELECT * FROM posts WHERE post_id = $the_post_id";
         $edit_user_query = mysqli_query($connection, $query);
         confirmQuery($edit_user_query);
 }
@@ -61,10 +53,6 @@ if(isset($_POST['edit_user'])){
         <input type="text" value="<?php echo $user_lastname; ?>" class="form-control" name="user_lastname">
     </div>
 
-
-
-    
-    
     <div class="form-group">
         <select name="user_role" id="">
 <option value="student"><?php echo $user_role; ?></option>
@@ -84,11 +72,6 @@ if(isset($_POST['edit_user'])){
         </select>
     </div>
 
-    
-    <!-- <div class="form-group">
-        <label for="post_image">Post Image</label>
-        <input type="file" name="image">
-    </div> -->
     <div class="form-group">
         <label for="post_tags">Username</label>
         <input type="text" value="<?php echo $username; ?>" class="form-control" name="username">
