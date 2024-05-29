@@ -51,7 +51,6 @@ function findAllCategories()
         echo "<td>{$email}</td>";
         echo "<td>{$message}</td>";
         echo "<td><a href='data.php?delete={$sno}'>Delete</a></td>";
-        // echo "<td><a href='data.php?edit={$sno}'>Edit</a></td>";
         echo "</tr>";
     }
 }
