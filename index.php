@@ -1,6 +1,4 @@
-<?php
-// include "db.php";
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,48 +15,6 @@
 </head>
 
 <body>
-    <!-- <nav class="navbar background h-nav">
-        <ul class="nav-list v-class">
-            <div class="logo"><img src="img/logo.jpg" alt="logo"></div>
-           <li><i class="fa-solid fa-house"></i><a href="index.html">Home</a></li>
-           <li><i class="fa-solid fa-camera"></i><a href="#">Gallery</a>
-        <div class="sub-menu-1">
-            <ul>
-                <li><a href="images.html">Images</a></li>
-                <li><a href="vdo.html">Videos</a></li>
-                <li><a href="#">Sports</a></li>
-                <li><a href="cca.html">CCA</a></li>
-                <li><a href="scout.html">Scout & Guide</a></li>
-                <li><a href="other.html">Other</a></li>
-
-            </ul>
-        </div>
-        </li> -->
-
-    <!-- <li><i class="fa-solid fa-user"></i><a href="about.html">About</a>
-            <div class="sub-menu-1">
-                <ul>
-                    <li><a href="#">Founder</a></li>
-                    <li><a href="#">Managing Director</a></li>
-                    <li><a href="#">Staff</a></li>
-                </ul>
-            </div>
-        </li> -->
-
-    <!-- <li><i class="fa-solid fa-user-tie"></i><a href="staff.php">Staff</a></li>
-           <li><i class="fa-solid fa-phone"></i><a href="contact.html">Contact Us</a></li>
-        </ul>
-        <div class="rightNav v-class">
-            <input type="text" name="search" id="search">
-            <button class="btn btn-sm">Search</button>
-        </div>
-        <div class="burger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </div>
-    </nav> -->
-
     <!-- Navbar starts-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -76,37 +32,17 @@
                         <div class="sub-menu-1">
                             <ul class="tab">
                                 <li class="tab"><a href="images.html">Events</a></li>
-                                <!-- <li class="tab"><a href="vdo.html">Videos</a></li> -->
                                 <li class="tab"><a href="news.html">Newspaper</a></li>
                                 <li class="tab"><a href="cca.html">CCA</a></li>
                                 <li class="tab"><a href="scout.html">Scout & Guide</a></li>
                                 <li class="tab"><a href="other.html">Other</a></li>
-
                             </ul>
                         </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="staff.php">Staff</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
-                    </li> -->
-
-                    <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Topics
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Technology</a></li>
-                            <li><a class="dropdown-item" href="#">Web Development</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Support</a></li>
-                            <li><a class="dropdown-item" href="#">Write for us</a></li>
-                        </ul>
-                    </li> -->
+                   
                     <li class="nav-item">
                         <a class="nav-link" href="contact.php">Contact Us</a>
                     </li>
@@ -114,30 +50,17 @@
                         <a class="nav-link btn " data-bs-toggle="modal" data-bs-target="#loginModal" href="admin">Admin</a></button>
 
                     </li>
-                    <!-- <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li> -->
+                   
                 </ul>
-                <!-- <div class="mx-2"> -->
-                <!-- <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button> -->
-                <!-- <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#signupModal">SignUp</button> -->
-                <!-- </div> -->
-                <!-- <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-light" type="submit">Search</button>
-                </form> -->
+              
             </div>
         </div>
     </nav>
     <!-- Navbar ends -->
 
 
-
-
-    <!-- <div class="container"> -->
     <section class="background firstSection bg">
-        <!-- <img src="../img/bg.jpeg" class="img-fluid" alt="..."> -->
-        <!-- <img src="img/bg.jpeg" class="img-fluid" alt="Responsive image"> -->
+       
         <div class="box-main">
             <div class="firstHalf">
                 <p class="text-big">MAHARISHI DAYANAND AADARSH INTER COLLEGE, UMRARA</p>
@@ -146,95 +69,9 @@
                 <img style="
                     width: 150px;"
                 class="image" src="img/logo.jpg" alt="image">
-                <!-- <img src="img/logo.jpg" class="img-thumbnail" alt="..."> -->
             </div>
         </div>
     </section>
-
-    <!-- <div class="bg-image responsive bg background " 
-     style="background-image: url('img/bg.png');
-         background-size: cover;
-         opacity: 0.7;
-         position: relative;text-align: center;
-  color: white;
-           height: 70vh">
-</div>
-    <div class="centered" 
-     style="
-         
-         position: absolute;font-family:Verdana, Geneva, Tahoma, sans-serif ; top: 50%;left: 40%;transform: translate(-50%, -50%);font-size: 2rem;margin:
-            auto; color:black; @media (max-width:900px){top: 70%;left: 20%;transform: translate(-50%, -50%);}
-              "><i>MAHARISHI DAYANAND AADARSH INTER COLLEGE, UMRARA</i>
-</div>
-<img class="abc"
-style="
-         
-         position: absolute; left: 80%;top: 45%;transform:translate(-50%, -50%);margin:
-            auto;margin-left: 5px;border-radius: 50%;border: 3px solid white;"
-              
-src='img/logo.jpg' alt='Avatar' width="200vw"> -->
-
-
-
-
-    <!-- </div> -->
-
-    <!-- Carousel starts -->
-    <!-- <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="false">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="carousel-caption d-none d-md-block">
-                    <h2>MAHARISHI DAYANAND AADARSH INTER COLLEGE, UMRARA</h5>
-                         <p>Technology News, Development and Trends</p>
-                        <button class="btn btn-danger">Technology</button>
-                        <button class="btn btn-primary">Web Development</button>
-                        <button class="btn btn-success">Tech Fun</button> -->
-    <!-- </div>
-                <img src="img/bg.jpeg" class="d-block w-100" alt="...">
-                
-            </div>
-            <div class="carousel-item">
-                <img src="img/bg.jpeg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h2>MAHARISHI DAYANAND AADARSH INTER COLLEGE, UMRARA</h5>  -->
-    <!-- <p>Technology News, Development and Trends</p>
-                        <button class="btn btn-danger">Technology</button>
-                        <button class="btn btn-primary">Web Development</button>
-                        <button class="btn btn-success">Tech Fun</button> -->
-    <!-- </div>
-            </div>
-            <div class="carousel-item">
-                <img src="img/bg.jpeg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h2>MAHARISHI DAYANAND AADARSH INTER COLLEGE, UMRARA</h5>
-                         <p>Technology News, Development and Trends</p>
-                        <button class="btn btn-danger">Technology</button>
-                        <button class="btn btn-primary">Web Development</button>
-                        <button class="btn btn-success">Tech Fun</button> -->
-    <!-- </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>  -->
-    <!-- Carousal ends -->
-
 
 
     <div class="container">
@@ -270,29 +107,6 @@ src='img/logo.jpg' alt='Avatar' width="200vw"> -->
 
 
 
-
-    <!-- <section class="section" id="services">
-        <div class="paras">
-        <p class="sectionTag text-big">The end of your search is here</p>
-        <p class="sectionSubTag text-small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quaerat reprehenderit, dolorum non sit accusamus maxime excepturi consectetur illum cumque? Mollitia sequi voluptas ipsam veniam quaerat officiis ad, deserunt unde voluptatibus vero assumenda nihil, animi culpa, alias nostrum voluptatum. Aspernatur molestiae soluta eos eveniet asperiores molestias magnam, tenetur dolor vitae architecto minima laborum ducimus voluptatem perferendis dicta minus eum voluptates placeat! Similique consequuntur officiis quibusdam dolorum dignissimos ipsum nulla, hic quae aut perferendis molestiae maxime rem fugit reprehenderit praesentium, harum quos recusandae atque velit iste fuga laudantium. At deserunt, maiores nemo expedita tempora reiciendis, a iusto natus sint provident assumenda.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, rem. Sapiente non similique illum culpa quaerat illo iusto quam exercitationem! Amet vero provident blanditiis. Aut asperiores tenetur necessitatibus enim tempore.</p>
-    </div>
-        <div class="thumbnail">
-        <img src="img/logo.jpg" alt="Image" class="imgFluid">
-    </div>
-    </section> -->
-    <!-- <section class="contact" id="contact">
-         <h2 class="text-center">Contact Us</h2>
-         <div class="form">
-            <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your Name">
-            <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter Your Phone">
-            <input class="form-input" type="email" name="email" id="email" placeholder="Enter Your email">        
-            <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Ellaborate your concern"></textarea>
-            <button class="btn btn-sm btn-dark">Submit</button>
-        </div>
-    </section> -->
-    <!-- <div class="row"> -->
-
-
     <!-- Login Modal starts-->
     <div class="modal fade" id="loginModal" aria-labelledby="loginModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -312,10 +126,7 @@ src='img/logo.jpg' alt='Avatar' width="200vw"> -->
                             <label for="exampleInputPassword1" class="form-label">Enter Password</label>
                             <input type="password" name="password" class="form-control" id="exampleInputPassword1">
                         </div>
-                        <!-- <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-          </div> -->
+                      
                         <button type="submit" class="btn btn-primary" name="login">Login</button>
                     </form>
                 </div>
@@ -345,7 +156,6 @@ src='img/logo.jpg' alt='Avatar' width="200vw"> -->
             <p class="ftxtp"><i class="fa fa-user"></i>&emsp;Palak Rajput</p>
         </div>
     </div>
-    <!-- </div> -->
     <footer class="background">
         <p class="text-footer">
             Copyright &copy; 2027 - MDA Inter College - All rights reserved
@@ -353,6 +163,18 @@ src='img/logo.jpg' alt='Avatar' width="200vw"> -->
     </footer>
     <script src="js/resp.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script>
+window.embeddedChatbotConfig = {
+chatbotId: "9EEqzB0upb7rxSZjwca69",
+domain: "www.chatbase.co"
+}
+</script>
+<script
+src="https://www.chatbase.co/embed.min.js"
+chatbotId="9EEqzB0upb7rxSZjwca69"
+domain="www.chatbase.co"
+defer>
+</script>
 </body>
 
 </html>
